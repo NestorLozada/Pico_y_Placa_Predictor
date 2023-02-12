@@ -27,8 +27,10 @@ time = input("Enter time (HH:MM): ")
 
 # Calling the function and printing the result
 result = pico_y_placa(plate_number, date, time)
+print("********************IMPUT RESULT RESULTS*****************************")
+print("Placa: ", plate_number,"Fecha: ", date, "Hora", time)
 print("Result:", result)
-
+print("********************EXAMPLE RESULTS*****************************")
 # Example usage
 print(pico_y_placa("PBX-1234", "2023-02-10", "08:30"))  # Output: no puede circular
 print(pico_y_placa("PBX-1234", "2023-02-11", "17:30"))  # Output: no puede circular
